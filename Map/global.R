@@ -1,0 +1,11 @@
+library(shiny)
+library("dplyr")
+library("plotly")
+
+criminal_data_part1=read.csv("/srv/shiny-server/s1076030/FinalProject/10601-10603犯罪資料.csv",sep=",",stringsAsFactors=FALSE)
+criminal_data_part2=read.csv("/srv/shiny-server/s1076030/FinalProject/10604-10606犯罪資料.csv",sep=",",stringsAsFactors=FALSE)
+criminal_data_part3=read.csv("/srv/shiny-server/s1076030/FinalProject/10607-10609犯罪資料.csv",sep=",",stringsAsFactors=FALSE)
+criminal_data_part4=read.csv("/srv/shiny-server/s1076030/FinalProject/10610-10612犯罪資料.csv",sep=",",stringsAsFactors=FALSE)
+TaoyuanLatLng=read.csv("/srv/shiny-server/s1076030/FinalProject/TaoyuanLatLng.csv",sep=",",stringsAsFactors = FALSE)
+KeelungLatLng=read.csv("/srv/shiny-server/s1076030/FinalProject/KeelungLatLng.csv",sep=",",stringsAsFactors = FALSE)
+#poplutaion_and_area=read.csv("/srv/shiny-server/s1076030/FinalProject/population.csv",sep=",",stringsAsFactors=FALSE)
