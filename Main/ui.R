@@ -17,7 +17,7 @@
                         max = 11000,
                         value = 10000), #default value
             textInput("ParticularDate", label = h5("特定日期(格式:1060101)"), value = ""),
-            tags$a(href="140.138.77.213:3838/s1076030/FinalProjectMap/", "犯罪之都地圖!!")
+            tags$a(href="http://140.138.77.213:3838/s1076030/FinalProjectMap/", "犯罪之都地圖!!")
           ),  
     # Show a plot of the generated distribution
         mainPanel(

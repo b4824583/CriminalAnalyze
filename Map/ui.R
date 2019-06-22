@@ -9,8 +9,8 @@
     sidebarLayout(
         sidebarPanel(
             selectInput("city","選擇縣市",choices=c("桃園市","基隆市")
-                        ,selected="桃園市")
-          
+                        ,selected="桃園市"),
+            tags$a(href="http://140.138.77.213:3838/s1076030/FinalProject/", "犯罪分析")
       #      selectInput("variable", "Variable:",
       #                                    c("Cylinders" = "cyl",
       #                                                            "Transmission" = "am",
